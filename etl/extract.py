@@ -31,6 +31,7 @@ storages = pd.read_csv(f"{bucket_url}/{customers_file}")
 tnxs_I = pd.read_csv(f"{bucket_url}/{tnxs_I}")
 tnxs_II = pd.read_csv(f"{bucket_url}/{tnxs_II}")
 
+# Save file to local 
 addresses.to_csv('data/addresses.csv')
 customers.to_csv('data/customers.csv')
 storages.to_csv('data/storages.csv')
